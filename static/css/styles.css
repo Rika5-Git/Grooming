@@ -60,6 +60,9 @@ body {
     border-radius: 32px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+   
+
 }
 
 
@@ -758,7 +761,7 @@ table{
 }
 
 /* Стиль кнопки навигации */
-.nav-btn {
+/* .nav-btn {
     background: none;
     border: none;
     color: white;
@@ -767,12 +770,12 @@ table{
     cursor: pointer;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s;
-}
+} */
 
-.nav-btn:hover {
+/* .nav-btn:hover {
     background-color: #5b2a09;
     border-radius: 5px;
-}
+} */
 
 /* Скрытое выпадающее меню */
 .dropdown-menu {
