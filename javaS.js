@@ -1,45 +1,4 @@
 
- 
-const galleryButton = document.getElementById('Gallery');
-galleryButton.addEventListener('click', () => {
-    window.location.href = 'gallery.html';
-});
-
-const serviceButton = document.getElementById('Service');
-serviceButton.addEventListener('click', () => {
-    window.location.href = 'service.html';
-});
-
-const priceButton = document.getElementById('Price');
-priceButton.addEventListener('click', () => {
-    window.location.href = 'price.html';
-});
-
-const reviewButton = document.getElementById('Reviews');
-reviewButton.addEventListener('click', () => {
-    window.location.href = 'review.html';
-});
-
-const aboutButton = document.getElementById('About');
-aboutButton.addEventListener('click', () => {
-    window.location.href = 'about.html';
-});
-
-const homeButton = document.getElementById('Home');
-homeButton.addEventListener('click', () => {
-    window.location.href = 'index.html';
-});
-
-const logButton = document.getElementById('Log');
-logButton.addEventListener('click', () => {
-    window.location.href = 'Log.html';
-});
-
-/*const regButton = document.getElementById('Reg');
-regButton.addEventListener('click', () => {
-    window.location.href = 'Register.html';
-});*/
-
 
 
 
