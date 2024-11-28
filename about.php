@@ -1,3 +1,7 @@
+<?php require "./db/config.php"; ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,11 +38,7 @@
     </div>
 </section>
 
-
 <?php require "inc/_footer.php" ?>
-
-
-
 
 <script src="javaS.js"></script>
 </body>

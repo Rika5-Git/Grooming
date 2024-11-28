@@ -32,6 +32,10 @@
             <div class="login">
                 <button class="signup-btn" type="submit">Login</button>
             </div>
+
+            <a class="btn"  href="register.php">Register now</a>
+
+
         </form>
     </div>
 </section>
