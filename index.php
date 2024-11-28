@@ -9,21 +9,8 @@
 
 </head>
 <body>
-<header>
-   
-    <nav class="navigation">
-       
-        <button class="user-home-btn"  id = "Home" ><img src="./static/images/svg/home.svg" class = "user-icon" alt="User icon"></button>
-        <button class="btn" id = Gallery >Gallery</button>
-        <button class="btn" id = Service >Service</button>  
-        <button class="btn"  id = Price >Price</button>
-        <img src="./static/images/svg/logo.svg" alt="Company logo" class="navigation__logo">
-        <button class="btn" id = Reviews >Reviews</button>
-        <button class="btn" id = About  >About us</button>
-        <button class="btn" id = 'Log'>Login</button>
-        <button class="user-home-btn" id = 'User'><img src="./static/images/svg/user.svg"class = "user-icon" alt="User icon"></button>
-    </nav>
-</header>
+
+<?php require "inc/_header.php" ?>
 
 <section class="hero-section">
     <div class="hero-content">
@@ -36,6 +23,8 @@
         </div>
     </div>
 </section>
+
+
 
 
 <script src="javaS.js">

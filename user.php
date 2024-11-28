@@ -8,22 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
-<header>
-    <nav class="navigation">
-        <button class="user-home-btn" id = 'Home'><img src="./static/images/svg/home.svg" class = "user-icon" alt="User icon"></button>
-        <button class="btn" id = Gallery >Gallery</button>
-        <button class="btn" id = Service >Service</button>   
-        <button class="btn"  id = Price >Price</button>  
-        <img src="./static/images/svg/logo.svg" alt="Company logo" class="navigation__logo">
-        <button class="btn" id = Reviews >Reviews</button>
-        <button class="btn" id = About >About us</button>
-        <button class="btn" id = 'Log'>Login</button>
 
-
-        <button class="user-home-btn" id = 'User'><img src="./static/images/svg/user.svg"class = "user-icon" alt="User icon"></button>
-    </nav>
-</header>
-
+<?php require "inc/_header.php" ?>
 
 <section class="login-section">
      <h2 class="log-reg"> User</h2>
@@ -72,28 +58,8 @@
 
 
 
-<footer>
-    <div class="footer-content">
-        
-        <ul class="footer-list footer-list-right">
-            <li> <img src ="static/images/svg/email.svg" alt="email">info@SnoutStudio.cz</li>
-            <li><img src ="static/images/svg/phone2.svg" alt="phone">+420 000 000 000</li>
-            <li><img src ="static/images/svg/inst.svg" alt="instagram">Instagram</li>
-            <li><img src ="static/images/svg/facebook.svg" alt="facebook">Facebook</li>
-        </ul>
-        <ul class="footer-list footer-list-left">
-            <li> <img src ="static/images/svg/map.svg" alt="map">Mostecká 46, 118 00 Malá Strana, Praga</li>
-            <li><img src ="static/images/svg/time.svg" alt="time">Mon-Fri, 9:00 AM - 7:00 PM</li>
-        
-        </ul>
-       
-        
-        <img src="./static/images/svg/logo.svg" alt="Company logo" class="footer_logo">
-    </div>
-
-
-</footer>
-   <script src="javaS.js" defer></script>
+<?php require "inc/_footer.php" ?>
+<script src="javaS.js" defer></script>
 </body>
  
 
